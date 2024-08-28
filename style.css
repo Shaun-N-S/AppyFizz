@@ -1,0 +1,157 @@
+*{
+    box-sizing: border-box;
+    overflow-x:visible;
+    
+}
+body{
+    margin: 0;
+   
+}
+.navbar{
+    background-color: #0a0b27;
+    height: 5rem;
+    max-width: 100%;
+
+}
+.logo-top{
+    height: 2rem;
+}
+.container-fluid{
+    font-size: 1.2rem;
+}
+.section-2{
+    background-color: rgb(0, 0, 0);
+     width: 50%!important;
+    
+}
+.red-symbol{
+    position: absolute;
+    left: 20%;
+    
+    width: 10%;
+    margin-top: 15%;
+}
+.roww-1 .rotating-head{
+    position: absolute;
+    top:center;
+    left: 18vw;
+    color: white;
+    text-align: center;
+    font-size: 80px!;
+    font-weight: 900;
+    font-family: "EksellDisplayWeb-Small";
+    z-index: 100;
+}
+.description p{
+    padding: 30px;
+    font-size: 24px;
+}
+.footernav img{
+    width: 20px;
+    height: 20px;
+}
+
+.footernav a{
+    color: rgb(0, 0, 0);
+}
+.footernav{
+    width: 200px;
+    height: 52px;
+    display: flex;
+    margin-top: 20px;
+    justify-content: space-between;
+    
+}
+
+.footernav img:hover{
+    width: 25px;
+    height: 25px;
+    transition: 0.4ms;
+    transform-style:preserve-3d;
+}
+address a{
+    text-decoration: none;
+}
+address span{
+    color: black;
+    font-weight: bold;
+}
+address span:hover{
+    color: red;
+    transition: 0.3s;
+}
+.footer {
+    margin:30px;
+}
+
+
+
+
+
+
+    /*..... media query.......*/
+
+
+    @media (min-width:1200px) {
+        .roww-1 .rotating-head{
+            left: 19vw;    
+        }
+        .rotate-image{
+            width: 550px;
+            height: 250px;
+             right: 10%;
+        }
+     }
+    @media(max-width:1200px){
+        .description{
+            font-size: 15px;
+        }
+        .rotate-image{
+            width: 530px;
+            height: 230px;
+            right: 11%;
+        }
+    
+    }
+    
+    @media (max-width:992px){
+        .rotate-image{
+            width: 520px;
+            height: 220px;
+            right: 9%;
+        }
+        .roww-1 .rotating-head{
+            left: 40vw;
+        }
+        .footer row{
+            font-size: 20px;
+            padding: 50px;
+        }
+    }
+    @media (max-width:792px) {
+        .rotate-image{
+            width: 500px;
+            height: 200px;
+            right: 9.5%;
+        }
+        .roww-1 .rotating-head{
+            left: 40vw;
+        }
+        
+    }
+    @media (max-width:576px){
+        .rotate-image img{
+            width: 60px;
+            height: 160px;
+          margin-right: 40px;
+        }
+        .roww-1 .rotating-head{
+            left: 37.5vw;
+            
+        }
+         .roww-1{
+            height: 400px;
+        }
+      
+    }
+
